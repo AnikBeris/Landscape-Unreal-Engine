@@ -3,9 +3,11 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./media/logo-dark.png">
-    <img alt="Project Logo" src="./media/logo-light.png">
+    <img alt="Project Logo" src="./media/logo-light.png" width="512" height="auto">
   </picture>
 </p>
+
+---
 
 <div align="center">
 
@@ -16,6 +18,9 @@
 </div>
 
 # Техническое руководство по ландшафтному дизайну.
+
+
+
 
 > **Отказ от ответственности:** Этот проект предназначен только для личного обучения.
 
@@ -35,10 +40,10 @@
 | **Ethereum (ERC20)** | `0x22258ea591966e830199d27dea7c542f31ed5dc5`|
 | **Binance Smart Chain (BEP20)** | `0x22258ea591966e830199d27dea7c542f31ed5dc5`|
 | **Solana (SOL)** | `yYYXsiVTzsvfvsMnBxfxSZEWTGytjAViE2ojf3hbLeF`|
-
+| **Cloud tips** | [cloudtips](https://pay.cloudtips.ru/p/7249ba98) |
 ---
 
-![//](https://img.edc-cdn.net/imgproxy/U__npbxDNUsQSb6EcG1JqG__AYhW60jQ74F5E-CngYQ/filename:hero-image.png/resizing_type:fill/width:1920/height:335/aHR0cHM6Ly9kMWl2N2RiNDR5aGd4bi5jbG91ZGZyb250Lm5ldC9kb2N1bWVudGF0aW9uL2ltYWdlcy84OTc1NjZjMi0xYTFhLTQ4YTMtOWRjZi01MWVjNjk1MjY0NTAvaGVyby1pbWFnZS5wbmc)
+![//](./media/hero-image.png.png)
 
 
 # Рекомендуемые размеры альбомной ориентации
@@ -99,7 +104,8 @@
 
 # Расчет шкалы Z карты высот
 
-![image](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/fae07000-7a7e-411d-858a-cafc6413ed79/landscape-tech-import.png)
+![//](./media/landscape-tech-import.png)
+
 ---
 
 Unreal Engine вычисляет высоту вашей карты высот, используя значения от **-256 до 255,992**, сохраненные с 16-битной точностью. 
@@ -145,6 +151,7 @@ Unreal Engine вычисляет высоту вашей карты высот, 
 Это даст вам значение шкалы Z 821,6796875 и приведет к карте высот от -410 839 см до 410 839 см.
 
 ---
+
 [ссылка на статью](https://dev.epicgames.com/documentation/en-us/unreal-engine/landscape-technical-guide-in-unreal-engine?application_version=5.4)
 
 
